@@ -53,6 +53,8 @@ declare interface IHacknetNode {
 }
 
 declare interface IGame {
+    hacknetnodes: IHacknetNode[];
+
     hack(hostname: string): Promise<number>;
     grow(hostname: string): Promise<number>;
     weaken(hostname: string): Promise<number>;
