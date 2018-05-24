@@ -1,0 +1,9 @@
+{
+    "out": "doc",
+    "mode": "file",
+    "includeDeclarations": true,
+    "excludeExternals": true,
+    "name": "BitBurner Type Declarations",
+    "readme": "none",
+    "theme": "minimal"
+}
